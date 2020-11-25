@@ -1,5 +1,4 @@
-# Algorithm_Snippets
-
+# Common
 
 
 ## 재귀 함수(Recursive Function)
