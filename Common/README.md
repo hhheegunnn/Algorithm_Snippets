@@ -19,7 +19,8 @@
     - 해결 방법
     ```python
     import sys
-    sys.setrecursionlimit(재귀 깊이 한계)
+    sys.setrecursionlimit(N)
+    # N = 증가시킬 재귀 깊이 한계
     ```
         
 
