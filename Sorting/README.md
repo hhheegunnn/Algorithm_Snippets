@@ -21,6 +21,8 @@
 
 <br>
 
+- 선택 정렬 예시
+
 <img src="./img/selection-sort.png" width="400px" height="600px" title="선택 정렬 예제" alt="RubberDuck"></img>
 
 ```python
@@ -48,6 +50,8 @@ step 4 [3, 5, 6, 7, 9]
 | <i>n</i> | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620">   | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620"> | 1 (In-place)      | Yes    | Insertion |
 
 <br>
+
+- 삽입 정렬 예시
 
 <img src="./img/insertion-sort.png" width="800px" height="1200px" title="삽입 정렬 예제" alt="RubberDuck"></img>
 
@@ -90,6 +94,8 @@ step 4 [2, 4, 5, 6, 8]
 | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/560dfdce0353a330e03e4b3e0b7ca6e484bb40fb"> | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/560dfdce0353a330e03e4b3e0b7ca6e484bb40fb">   | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620"> | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/317ab5292da7c7935aec01a570461fe0613b21d5"> (worst case: <i>n</i>)      | **No** | Partitioning |
 
 <br>
+
+- 퀵 정렬 예시
 
 <img src="./img/quick-sort.png" width="800px" height="1200px" title="퀵 정렬 알고리즘 예제" alt="RubberDuck"></img>
 
