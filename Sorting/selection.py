@@ -13,6 +13,6 @@ def selection_sort(array):
     return array
 
 """
-array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+array = [9, 6, 7, 3, 5]
 selection_sort(array)
 """

@@ -14,21 +14,17 @@
     - *N + (N-1) + (N-2) + ... + 2*
 - 이는 *(N\*\*2+N-2)/2*로 표현, -> **_O(N\*\*2)_**
 
+<img src="./img/selection-sort.png" width="400px" height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
 ```python
->>> array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+>>> array = [9, 6, 7, 3, 5]
 >>> selection_sort(array)
-step 0 [0, 5, 9, 7, 3, 1, 6, 2, 4, 8]
-step 1 [0, 1, 9, 7, 3, 5, 6, 2, 4, 8]
-step 2 [0, 1, 2, 7, 3, 5, 6, 9, 4, 8]
-step 3 [0, 1, 2, 3, 7, 5, 6, 9, 4, 8]
-step 4 [0, 1, 2, 3, 4, 5, 6, 9, 7, 8]
-step 5 [0, 1, 2, 3, 4, 5, 6, 9, 7, 8]
-step 6 [0, 1, 2, 3, 4, 5, 6, 9, 7, 8]
-step 7 [0, 1, 2, 3, 4, 5, 6, 7, 9, 8]
-step 8 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-step 9 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+step 0 [3, 6, 7, 9, 5]
+step 1 [3, 5, 7, 9, 6]
+step 2 [3, 5, 6, 9, 7]
+step 3 [3, 5, 6, 7, 9]
+step 4 [3, 5, 6, 7, 9]
 ```
-<img src="./img/selection_sort.jpg" width="400px" height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
 | Best | Average | Worst | Memory | Stable | Method     |
 | ---- | ------- | ----- | ----------------- | ------ | ---------- |
@@ -43,18 +39,15 @@ step 9 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 - 현재 리스트의 데이터가 거의 정렬되어 있는 상태라면 매우 빠르게 동작
     - 최선의 경우 *O(N)* 의 시간 복잡도
 
+<img src="./img/insertion-sort.png" width="400px" height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
 ```python
->>> array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+>>> array = [8, 5, 6, 2, 4]
 >>> insertion_sort(array)
-step 1 [5, 7, 9, 0, 3, 1, 6, 2, 4, 8]
-step 2 [5, 7, 9, 0, 3, 1, 6, 2, 4, 8]
-step 3 [0, 5, 7, 9, 3, 1, 6, 2, 4, 8]
-step 4 [0, 3, 5, 7, 9, 1, 6, 2, 4, 8]
-step 5 [0, 1, 3, 5, 7, 9, 6, 2, 4, 8]
-step 6 [0, 1, 3, 5, 6, 7, 9, 2, 4, 8]
-step 7 [0, 1, 2, 3, 5, 6, 7, 9, 4, 8]
-step 8 [0, 1, 2, 3, 4, 5, 6, 7, 9, 8]
-step 9 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+step 1 [5, 8, 6, 2, 4]
+step 2 [5, 6, 8, 2, 4]
+step 3 [2, 5, 6, 8, 4]
+step 4 [2, 4, 5, 6, 8]
 ```
 
 | Best | Average | Worst | Memory | Stable | Method     |

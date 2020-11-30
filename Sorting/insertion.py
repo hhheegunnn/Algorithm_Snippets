@@ -12,6 +12,6 @@ def insertion_sort(array):
     return array
 
 """
-array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+array = [8, 5, 6, 2, 4]
 insertion_sort(array)
 """
