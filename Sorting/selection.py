@@ -7,6 +7,12 @@ def selection_sort(array):
                 min_index = j
             
         array[i], array[min_index] = array[min_index], array[i] # swap
+        
+        print('step',i, array)
 
     return array
-    
+
+"""
+array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+selection_sort(array)
+"""
