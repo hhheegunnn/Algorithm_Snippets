@@ -1,4 +1,5 @@
-# Sorting
+<h1 align="center">Sorting algorithm</h1>
+<p align="center">
 
 - <u>**_데이터를 특정한 기준에 따라 순서대로 나열하는 것_**</u>
 
