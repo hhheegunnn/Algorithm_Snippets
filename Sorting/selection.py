@@ -1,6 +1,6 @@
 def selection_sort(array):
 
-    for i in range(len(array)):
+    for i in range(len(array)-1):
         min_index = i # 가장 작은 원소의 인덱스
         for j in range(i+1,len(array)):
             if array[min_index] > array[j]:
@@ -8,7 +8,7 @@ def selection_sort(array):
             
         array[i], array[min_index] = array[min_index], array[i] # swap
         
-        print('step',i, array)
+        print('step',i+1, array)
 
     return array
 
