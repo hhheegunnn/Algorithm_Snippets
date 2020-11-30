@@ -4,9 +4,14 @@
 
 
 
+
 ## 선택정렬 (Selection sort)
 
-- 처리되지 않은 데이터 중에서 가장 작은 데이터를 **선택**해 맨 앞에 있는 데이터와 바꾸는 것을 반복
+- 처리되지 않은 데이터 중에서 가장 작은 데이터를 **_선택_**해 맨 앞에 있는 데이터와 바꾸는 것을 반복
+- *N*번 만큼 가장 작은 수를 찾아서 맨 앞으로 보냄
+- 구현 방식에 따라 사소한 오차는 있을 수 있지만, 정체 연산 횟수는 다음과 같다.
+    - *N + (N-1) + (N-2) + ... + 2*
+- 이는 *(N\*\*2+N-2)/2*로 표현, -> **_O(N\*\*2)_**
 
 ```python
 selection_sort(array)
@@ -17,22 +22,22 @@ selection_sort(array)
 | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620">  | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620">   | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620"> | 1 (In-place)      | **No**    | Selection |
 
 
+## 삽입정렬 (Insertion sort)
 
-## GCD (Greatest Common Divisor)
+- 처리되지 않은 데이터를 하나씩 골라 적절한 위치에 **_삽입_**
+- 선택 정렬 비해 구현 난이도가 높은 편이지만, 일반적으로 더 효율적으로 동작
+- 시간 복잡도는 **_O(N\*\*2)_**이며, 선택 정렬과 마찬가지로 반복문이 두 번 중첩
+- 현재 리스트의 데이터가 거의 정렬되어 있는 상태라면 매우 빠르게 동작
+    - 최선의 경우 *O(N)*의 시간 복잡도
 
-### 유클리드 호제법
-- 두 개의 자연수에 대한 최대공약수를 구하는 대표적인 알고리즘
-- 두 자연수 A, B에 대하여 (A>B) A를 B로 나눈 나머지를 R
-- 이때 A와 B의 최대공약수는 B와 R의 최대공약수와 동일
-- 유클리드 호제법의 아이디어를 그대로 재귀 함수로 작성 가능
-    - 예시 : GCD(192,162)
+```python
+insertion_sort(array)
+```
 
-        | Step | A | B |
-        | :----: | :-: | :-: |
-        | 1 | 192 | 162 |
-        | 2 | 162 | 30 |
-        | 3 | 30 | 12 |
-        | 4 | 12 | 6 |
+| Best | Average | Worst | Memory | Stable | Method     |
+| ---- | ------- | ----- | ----------------- | ------ | ---------- |
+| <i>n</i> | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620">   | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620"> | 1 (In-place)      | Yes    | Insertion |
+
 
 
 
