@@ -17,6 +17,12 @@
 selection_sort(array)
 ```
 
+```python
+>>> array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+>>> selection_sort(array)
+>>> 
+```
+
 | Best | Average | Worst | Memory | Stable | Method     |
 | ---- | ------- | ----- | ----------------- | ------ | ---------- |
 | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620">  | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620">   | <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac9810bbdafe4a6a8061338db0f74e25b7952620"> | 1 (In-place)      | **No**    | Selection |
