@@ -27,6 +27,7 @@
 >>> visited = [False]*7
 >>> dfs_iteration(graph, start_node, visited)
 dfs_iteration =  [0, 2, 6, 5, 1, 4, 3]
+```
 
 <br>
 <br>
