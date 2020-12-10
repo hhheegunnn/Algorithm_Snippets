@@ -1,4 +1,7 @@
-# Searching
+<h1 align="center">Searching algorithm</h1>
+<p align="center">
+
+- <u>**_수정_**</u>
 
 
 <br>
