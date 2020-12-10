@@ -1,8 +1,8 @@
 # dfs 반복
 
-graph = [[],[2,3,8],[1,7],[1,4,5],[3,5],[3,4],[7],[2,6,8],[1,7]]
+graph = [[1,2],[0,3,4],[0,5,6],[1],[1],[2],[2]]
 
-visited = [False]*9
+visited = [False]*7
 
 result = []
 
@@ -21,5 +21,7 @@ def dfs_iteration(graph,start_node,visited):
     
     return result
 
-print("dfs_iteration = ", dfs_iteration(graph,1,visited))
-# 1 8 7 6 2 3 5 4
+
+
+print("dfs_iteration = ", dfs_iteration(graph,0,visited))
+# dfs_iteration =  [0, 2, 6, 5, 1, 4, 3]

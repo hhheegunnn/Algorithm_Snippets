@@ -1,8 +1,8 @@
 # dfs 재귀
 
-graph = [[],[2,3,8],[1,7],[1,4,5],[3,5],[3,4],[7],[2,6,8],[1,7]]
+graph = [[1,2],[0,3,4],[0,5,6],[1],[1],[2],[2]]
 
-visited = [False]*9
+visited = [False]*7
 
 result = []
 
@@ -16,8 +16,8 @@ def dfs_recursive(graph,start_node,visited):
     return result
 
 
-print("dfs_recursive = ", dfs_recursive(graph,1,visited))
-# 1 2 7 6 8 3 4 5
+print("dfs_recursive = ", dfs_recursive(graph,0,visited))
+# dfs_recursive =  [0, 1, 3, 4, 2, 5, 6]
 
 
 
