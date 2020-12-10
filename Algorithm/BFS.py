@@ -2,9 +2,9 @@
 
 from collections import deque
 
-graph = [[],[2,3,8],[1,7],[1,4,5],[3,5],[3,4],[7],[2,6,8],[1,7]]
+graph = [[1,2],[0,3,4],[0,5,6],[1],[1],[2],[2]]
 
-visited = [False]*9
+visited = [False]*7
 
 result = []
 
@@ -27,7 +27,6 @@ def bfs(graph,start_node,visited):
                 visited[i] = True
     return result
 
-print("bfs = ", bfs(graph, 1, visited))
-
-#1 2 3 8 7 4 5 6
+print("bfs =", bfs(graph, 0, visited))
+# bfs = [0, 1, 2, 3, 4, 5, 6]
 
