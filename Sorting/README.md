@@ -23,7 +23,7 @@
 
 - 선택 정렬 예시
 
-<img src="./img/selection-sort.png" width="400px" height="600px" title="선택 정렬 예제" alt="RubberDuck"></img>
+<img src="../img/selection-sort.png" width="400px" height="600px" title="선택 정렬 예제" alt="RubberDuck"></img>
 
 ```python
 >>> array = [9, 6, 7, 3, 5]
@@ -53,7 +53,7 @@ step 4 [3, 5, 6, 7, 9]
 
 - 삽입 정렬 예시
 
-<img src="./img/insertion-sort.png" width="800px" height="1200px" title="삽입 정렬 예제" alt="RubberDuck"></img>
+<img src="../img/insertion-sort.png" width="800px" height="1200px" title="삽입 정렬 예제" alt="RubberDuck"></img>
 
 ```python
 >>> array = [8, 5, 6, 2, 4]
@@ -87,7 +87,7 @@ step 4 [2, 4, 5, 6, 8]
         - **결합(Combine)** : 정렬된 부분 배열들을 하나의 배열에 합병
         - 순환 호출이 한번 진행될 때마다 최소한 하나의 원소(피벗)는 최종적으로 위치가 정해지므로, 이 알고리즘은 반드시 끝난다는 것을 보장
 
-<img src="./img/quick-sort_.png" width="400px" height="600px" title="퀵 정렬 알고리즘 개념" alt="RubberDuck"></img>
+<img src="../img/quick-sort_.png" width="400px" height="600px" title="퀵 정렬 알고리즘 개념" alt="RubberDuck"></img>
 
 | Best | Average | Worst | Memory | Stable | Method     |
 | ---- | ------- | ----- | ----------------- | ------ | ---------- |
@@ -97,7 +97,7 @@ step 4 [2, 4, 5, 6, 8]
 
 - 퀵 정렬 예시
 
-<img src="./img/quick-sort.png" width="800px" height="1200px" title="퀵 정렬 알고리즘 예제" alt="RubberDuck"></img>
+<img src="../img/quick-sort.png" width="800px" height="1200px" title="퀵 정렬 알고리즘 예제" alt="RubberDuck"></img>
 
 ```python
 >>> array = [5, 3, 8, 4 ,9, 1, 6, 2, 7]
