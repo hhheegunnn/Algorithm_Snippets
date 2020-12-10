@@ -70,7 +70,7 @@ bfs = [0, 1, 2, 3, 4, 5, 6]
     - bisect_left(a, x) : 정렬된 순서를 유지하면서 배열a에 x를 삽입할 가장 왼쪽 인덱스를 반환
     - bisect_right(a, x) : 정렬된 순서를 유지하면서 배열a에 x를 삽입할 가장 오른쪽 인덱스를 반환
 
-<img src="../img/bisect.png" width="400px" height="400px" title="bisect 예제" alt="RubberDuck"></img>
+<img src="../img/bisect.png" width="400px" height="150px" title="bisect 예제" alt="RubberDuck"></img>
 
 ```python
 >>> from bisect import bisect_left, bisect_right
