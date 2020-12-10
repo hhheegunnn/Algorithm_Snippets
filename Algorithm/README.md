@@ -11,6 +11,12 @@
     1. 탐색 시작 노드를 스택에 삽입하고 방문 처리
     2. 스택의 최상단 노드에 방문하지 않은 인접한 노드가 하나라도 있으면 그 노드를 스택에 넣고 방문 처리, 방문 하지 않은 인접 노드가 없으면 스택에서 최상단 노드를 꺼냄
     3. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복
+    
+<br>
+
+- DFS 예시
+
+<img src="../img/dfs.png" width="600px" height="600px" title="DFS 예제" alt="RubberDuck"></img>
 
 <br>
 <br>
@@ -23,6 +29,12 @@
     2. 큐에서 노드를 꺼낸 뒤에 해당 노드의 인접 노드 중에서 방문하지 않은 노드를 모두 큐에 삽입하고 방문 처리
     3. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복
 - **<U>간선의 코스트를 부여하여 최단거리, 최소비용 문제에 출제 가능</U>**
+
+<br>
+
+- BFS 예시
+
+<img src="../img/bfs.png" width="800px" height="800px" title="BFS 예제" alt="RubberDuck"></img>
 
 <br>
 <br>
@@ -43,6 +55,8 @@
 <br>
 
 - 이진 탐색 예시
+
+<img src="../img/binary_search.png" width="400px" height="400px" title="이진탐색 예제" alt="RubberDuck"></img>
 
 
 ```python
