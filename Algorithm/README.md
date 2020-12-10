@@ -46,6 +46,13 @@ dfs_iteration =  [0, 2, 6, 5, 1, 4, 3]
 - BFS 예시
 
 <img src="../img/bfs.png" width="400px" height="300px" title="BFS 예제" alt="RubberDuck"></img>
+```python
+>>> graph = [[1,2],[0,3,4],[0,5,6],[1],[1],[2],[2]]
+>>> start_node = 0
+>>> visited = [False]*7
+>>> bfs(graph, start_node, visited)
+bfs = [0, 1, 2, 3, 4, 5, 6]
+```
 
 <br>
 <br>
