@@ -4,7 +4,7 @@ import heapq
 def heapsort(iterable):
     h = []
     result = []
-    # 모든 원소를 차례대로 힙에 삽입
+    # 모든 원소를 차례대로 힙에 삽입햐
     for value in iterable:
         heapq.heappush(h, value)
 
@@ -23,3 +23,4 @@ def heapsort(iterable):
 
 result = heapsort([1,3,5,7,9,2,4,6,8,0])
 print(result)
+
